@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon shortcut" href="https://img.icons8.com/external-jumpicon-glyph-ayub-irawan/344/external-_39-new-year-jumpicon-(glyph)-jumpicon-glyph-ayub-irawan.png">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Countdown</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1 id="title">Title</h1>
+      </div>
+      <div class="countdown">
+        <div class="countdown-el days">
+          <p class="big-text" id="days">0</p>
+          <span>Days</span>
+        </div>
+        <div class="countdown-el hours">
+          <p class="big-text" id="hours">0</p>
+          <span>Hours</span>
+        </div>
+        <div class="countdown-el minutes">
+          <p class="big-text" id="minutes">0</p>
+          <span>Minutes</span>
+        </div>
+        <div class="countdown-el seconds">
+          <p class="big-text" id="seconds">0</p>
+          <span>Seconds</span>
+        </div>
+      </div>
+      <div class="set-date" id="open-set">
+        <button class="button-set">Set date</button>
+      </div>
+      <div class="set-date new-set-date active" id="set-date">
+        <label class="new-date">Date</label>
+        <span><input type="date" id="new-date" /></span>
+        <label class="new-date">Title</label>
+        <span><input type="text" id="new-title" /></span>
+        <button class="button-new-set">Set new date</button>
+      </div>
+    </div>
+  </body>
+</html>

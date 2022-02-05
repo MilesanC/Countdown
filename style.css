@@ -1,0 +1,106 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 2.5rem;
+    margin-top: -2.5rem;
+    color: white;
+}
+
+.countdown {
+    display: flex;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+    margin: 0 1rem;
+    padding: 0; 
+    border-radius: 1rem;  
+    background: #abcdef;  
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
+
+.set-date{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active{
+    display: none;
+}
+
+.button-set{
+    background-color: #172a5e;
+    display: flex;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.button-set:hover {
+    background-color: #0838bd
+}
+
+.new-date{
+    margin: 1rem;
+    display: block;
+    color: white;
+}
+
+.new-set-date{
+    background: #abcdef;
+    padding: 1rem 5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.new-set-date input{
+    font-size: 1.2rem;
+    color: black;
+    border: none;
+    border-radius: 0.2rem;
+    display: flex;
+    background: #eaf1ff;
+}
+
+.button-new-set {
+    margin: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #172a5e;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.button-new-set:hover {
+    background-color: #0838bd
+}
